@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BiTrash, BiEdit } from "react-icons/bi";
+import { BiTrash } from "react-icons/bi";
 import { longDateOptions } from "../../utils/constants";
 import { hexToRGB } from "../../utils/helpers";
 import { Button } from "../";

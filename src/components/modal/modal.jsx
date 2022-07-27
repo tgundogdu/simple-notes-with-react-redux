@@ -6,7 +6,6 @@ import "./modal.scss";
 
 const Modal = ({ onClose, data }) => {
   const {
-    id,
     title,
     content,
     tags,
