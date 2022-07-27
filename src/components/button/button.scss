@@ -1,0 +1,42 @@
+@import "../../assets/styles/variable";
+@import "../../assets/styles/mixin";
+@import "../../assets/styles/responsive";
+
+.custom-btn {
+  border-radius: $radius;
+  font-size: 14px;
+  border: none;
+  padding: 6px 8px;
+  cursor: pointer;
+  color: #e8f1f5;
+  background-color: $primary;
+  &:hover {
+    background-color: $primaryDark;
+  }
+  &.danger {
+    border-color: $danger;
+    background-color: $danger;
+    &:hover{
+        background-color: $dangerDark;
+    }
+  }
+  &.success {
+    border-color: $success;
+    background-color: $success;
+    &:hover{
+        background-color: $successDark;
+    }
+  }
+  &.light {
+    border-color: $light;
+    background-color: $light;
+    color: #495464;
+    &:hover{
+        background-color: $lightDark;
+    }
+  }
+  svg {
+    vertical-align: top;
+    display: inline-block;
+  }
+}

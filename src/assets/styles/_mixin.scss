@@ -1,0 +1,21 @@
+@mixin easing($key: 0.3, $type: all, $animation: ease) {
+    -moz-transition: $type $key + s $animation;
+    -webkit-transition: $type $key + s $animation;
+    -ms-transition: $type $key + s $animation;
+    transition: $type $key + s $animation;
+}
+
+@mixin lineargradient($degree, $first, $last) { 
+    background: -webkit-linear-gradient($degree, $first, $last);
+    background: -moz-linear-gradient($degree, $first, $last);
+    background: -o-linear-gradient($degree, $first, $last);
+    background: linear-gradient($degree, $first, $last);  
+  }
+
+@mixin fullfilled {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}

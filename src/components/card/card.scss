@@ -1,0 +1,82 @@
+@import "../../assets/styles/variable";
+@import "../../assets/styles/mixin";
+
+.card {
+  background-color: #fff;
+  border-radius: $cardRadius;
+  flex: 1 0 250px;
+  box-shadow: 0px 4px 0px $borderColor;
+  overflow: hidden;
+  padding: 15px;
+  position: relative;
+  border: solid 1px transparent;
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1);
+  @include easing(0.2);
+  &:hover {
+    transform: scale(1.03);
+    background-color: #FFFFFF !important;
+    .content {
+      opacity: 1;
+    }
+    .actions{
+      bottom: 0;
+    }
+  }
+  &.animated{
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  h3 {
+    font-weight: bold;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+  .date {
+    margin-bottom: 10px;
+    font-style: italic;
+    opacity: 0.5;
+    font-size: 90%;
+  }
+  .content {
+    @include easing(0.2);
+    opacity: 0.7;
+    overflow: hidden;
+    max-height: 200px;
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+  .tags {
+    margin-top: 10px;
+    opacity: 0.5;
+    font-style: italic;
+    font-weight: bold;
+    span {
+      text-decoration: underline;
+      margin-right: 5px;
+    }
+  }
+  .actions {
+    display: block;
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    padding: 15px;
+    z-index: 11;
+    background-color: rgba(255,255,255,.7);
+    @include lineargradient(0, rgba(255,255,255,1), rgba(255,255,255,.3));
+    @include easing(0.2, bottom);
+    .buttons{
+      left: 0;
+      bottom: 0;
+      padding: 15px;
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

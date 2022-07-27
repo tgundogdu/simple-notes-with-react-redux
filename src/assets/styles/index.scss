@@ -1,0 +1,122 @@
+@import "./reset";
+@import "./variable";
+@import "./responsive";
+@import "./mixin";
+
+body {
+  background-color: $background;
+  color: $textColor;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  min-height: 60px;
+  background-color: #FFF;
+  border-bottom: solid 1px $borderColor;
+  text-align: center;
+  padding: 10px 0 0 0;
+  box-shadow: 0px 2px 0px $borderColor;
+  h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+}
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin-top: 120px;
+  .pages {
+    width: 1200px;
+    @include screen_size(md) {
+      width: 1000px;
+    }
+
+    @include screen_size(sm) {
+      width: 700px;
+    }
+
+    @include screen_size(xs) {
+      width: 100%;
+    }
+  }
+}
+
+.news-page {
+  .no-data-found{
+    text-align: center;
+    font-size: 24px;
+    opacity: .6;
+  }
+  .news-masonry {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -30px;
+    width: auto;
+    .news-masonry-column {
+      padding-left: 30px;
+      background-clip: padding-box;
+      .card {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+.detail-page {
+  .detail-actions {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+  .note-detail {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: $cardRadius;
+    box-shadow: 0px 4px 0px $borderColor;
+    .date {
+      margin: 10px 0;
+      font-style: italic;
+      opacity: 0.6;
+    }
+    .content {
+      margin-bottom: 20px;
+    }
+    .tags {
+      font-style: italic;
+      span {
+        font-weight: bold;
+        margin: 0 5px;
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.error-page {
+  text-align: center;
+  .not-found-img {
+    width: 400px;
+    @include screen_size(md) {
+      width: 300px;
+    }
+
+    @include screen_size(sm) {
+      width: 200px;
+    }
+
+    @include screen_size(xs) {
+      width: 100px;
+    }
+  }
+  .error-msg {
+    font-size: 42px;
+    margin: 20px 0;
+  }
+}

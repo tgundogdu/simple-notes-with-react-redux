@@ -1,0 +1,119 @@
+[
+  {
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "content": "Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "tags": ["react", "javascript"],
+    "date": "Sat Jul 16 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#187498"
+    }
+  },
+  {
+    "title": "Ut consequat metus at augue sodales egestas",
+    "content": "Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. When an unknown printer took a galley of type unknown printer took a galley of type a",
+    "tags": ["redux"],
+    "date": "Sat Jul 17 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#8785A2"
+    }
+  },
+  {
+    "title": "Sed eget nulla malesuada, laoreet nunc vitae, dignissim ante",
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+    "tags": ["action"],
+    "date": "Sat Jul 20 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#61C0BF"
+    }
+  },
+  {
+    "title": "Aliquam condimentum libero a nisl bibendum maximus",
+    "content": "Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    "tags": ["store", "reducer", "action"],
+    "date": "Sat Jul 18 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#EB4747"
+    }
+  },
+  {
+    "title": "Sed eget nisi ultrices, facilisis ante eget, scelerisque diam",
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survive",
+    "tags": ["router"],
+    "date": "Sat Jul 21 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#495464"
+    }
+  },
+  {
+    "title": "Mauris vel dui at magna aliquet aliquam in a tellus",
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survive",
+    "tags": ["service"],
+    "date": "Sat Jul 19 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#E8630A"
+    }
+  },
+  {
+    "title": "Quisque eleifend erat vel nunc ultrices sodales",
+    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survive",
+    "tags": ["noteapp"],
+    "date": "Sat Jul 22 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#7C3E66"
+    }
+  },
+  {
+    "title": "Cras at quam fermentum, dapibus sem lacinia, tempus urna",
+    "content": "Proin mattis, neque in euismod iaculis, libero enim feugiat orci, ac viverra orci dolor ut purus. Donec suscipit finibus sem a venenatis. Mauris id lorem sem. Integer nunc orci, cursus et semper sit amet, pretium volutpat magna. Morbi eget lacinia felis.",
+    "tags": ["react"],
+    "date": "Sat Jul 15 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#3330E4"
+    }
+  },
+  {
+    "title": "Maecenas pretium lectus eget faucibus tristique",
+    "content": "Mauris vitae ipsum nec ipsum rutrum suscipit. In augue orci, pellentesque a urna vel, efficitur dignissim purus. Integer hendrerit dui ut nunc feugiat molestie. Donec pharetra elementum leo vitae posuere. Nam pellentesque ipsum vel purus vehicula, sodales finibus ipsum fringilla.",
+    "tags": ["redux", "react"],
+    "date": "Sat Jul 14 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#E8AA42"
+    }
+  },
+  {
+    "title": "Suspendisse cursus nunc ac lacus placerat ultricies",
+    "content": "Nulla a tortor vulputate, placerat metus ut, sollicitudin nisl. Mauris vitae ipsum nec ipsum rutrum suscipit. In augue orci, pellentesque a urna vel, efficitur dignissim purus.",
+    "tags": ["javascript", "react"],
+    "date": "Sat Jul 13 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#D61C4E"
+    }
+  },
+  {
+    "title": "Duis placerat tellus at enim tristique gravida",
+    "content": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form",
+    "tags": ["router", "browser router"],
+    "date": "Sat Jul 12 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#EF5B0C"
+    }
+  },
+  {
+    "title": "Aenean accumsan augue sed purus accumsan accumsan",
+    "content": "Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections",
+    "tags": ["javascript", "react"],
+    "date": "Sat Jul 11 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#100F0F"
+    }
+  },
+  {
+    "title": "Nullam ultrices sem fringilla mattis dictum.",
+    "content": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+    "tags": ["javascript"],
+    "date": "Sat Jul 10 2022 23:05:37 GMT+0300 (GMT+03:00)",
+    "theme": {
+      "color": "#7A4495"
+    }
+  }
+]

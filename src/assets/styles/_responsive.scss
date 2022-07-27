@@ -1,0 +1,15 @@
+@mixin screen_size($media) {
+    @if ($media == xs) {
+        @media (max-width: $media-small) {
+            @content;
+        }
+    } @else if ($media == sm) {
+        @media (min-width: $media-small) and (max-width: $media-medium) {
+            @content;
+        }
+    } @else if ($media == md) {
+        @media (min-width: $media-medium) and (max-width: $media-large) {
+            @content;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+@import "../../assets/styles/variable";
+@import "../../assets/styles/mixin";
+@import "../../assets/styles/responsive";
+
+.modal {
+  @include fullfilled;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  .overlay {
+    @include fullfilled;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .content {
+    background-color: rgba(255, 255, 255, 1);
+    max-height: 90%;
+    width: 500px;
+    overflow: hidden;
+    border-radius: $cardRadius;
+    box-shadow: 0px 4px 0px $borderColor;
+    opacity: 0;
+    transform: scale(1.2);
+    @include easing(0.1);
+    &.animated {
+      opacity: 1;
+      transform: scale(1);
+    }
+    .inner {
+      padding: 30px;
+      .date {
+        font-style: italic;
+        margin: 10px 0;
+      }
+      .tags {
+        margin-top: 10px;
+        font-weight: bold;
+        font-style: italic;
+      }
+    }
+  }
+}
